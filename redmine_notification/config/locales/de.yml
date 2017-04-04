@@ -1,0 +1,16 @@
+de:
+  field_reminder_option: "Option Erinnerung"
+  field_reminder_date: "Erinnerung Datum"
+  reminder_mail_subject_recurring: "Wiederkehrende Aufgaben -"
+  reminder_mail_subject_due_soon: "Erinnerungsmail -"
+  reminder_mail_body_recurring: "Ihnen zugewiesene Tickets mit Wiederkehrende Aufgaben"
+  reminder_mail_body_due_soon: "Ihnen zugewiesene Tickets mit (bald) fälligem Abgabedatum"
+  reminder_view_all_your_issues: "Alle Ihre Fragen"
+  single_reminder: "Einzel Erinnerung"
+  weekly_reminder: "Wöchentliche Erinnerung"
+  two_weeks_reminder: "2 Wochen Erinnerung"
+  monthly_reminder: "Monatliche Erinnerung"
+  two_months_reminder: "Zwei Monate Erinnerung"
+  three_months_reminder: "Drei Monate Erinnerung"
+  six_month_reminder: "Sechs Monate Erinnerung"
+  

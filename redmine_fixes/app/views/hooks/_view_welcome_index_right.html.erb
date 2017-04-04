@@ -1,0 +1,18 @@
+<div class="issues box">
+  <table>
+    <thead>
+    <tr>
+      <th>
+        <%= l(:field_issue) %>
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @issues.each do |issue| %>
+        <tr>
+          <td><%= link_to_issue issue %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>

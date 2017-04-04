@@ -1,0 +1,15 @@
+<p><%= @type == 0 ? l(:reminder_mail_body_recurring) : l(:reminder_mail_body_due_soon) %>:</p>
+
+
+    <h2><%= "#{@project.name}" %></h2>
+    <ul>
+
+        <%
+           name = "#{@issue.tracker} ##{@issue.id}: #{@issue.subject}"
+           caption = "* #{name} (#{l(:field_due_date)}: #{@issue.due_date})"
+        %>
+        <li>
+        <%= link_to caption,issue_url(@issue) %>
+        </li>
+    </ul>
+

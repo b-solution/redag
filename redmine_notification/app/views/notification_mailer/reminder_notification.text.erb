@@ -1,0 +1,12 @@
+<%=  @type == 0 ? l(:reminder_mail_body_recurring) : l(:reminder_mail_body_due_soon) %>:
+
+
+<%= "#{@project.name}" %>
+
+
+<% issue = @issue
+   name = "#{issue.tracker} ##{issue.id}: #{issue.subject}"
+
+     caption = "* #{name} (#{l(:field_due_date)}: #{issue.due_date})"
+-%>
+  <%= caption %>

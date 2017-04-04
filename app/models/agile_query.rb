@@ -650,7 +650,7 @@ private
                  :fixed_version,
                  :agile_data).
       where(statement).
-      where(condition_for_status)
+      where(condition_for_status).order('issues.priority_id DESC')
   end
   def set_default_when_appropriate
     if options[:is_default]

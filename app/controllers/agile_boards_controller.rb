@@ -49,6 +49,7 @@ class AgileBoardsController < ApplicationController
 
   def index
     retrieve_agile_query
+    session[:board_project_id] = params[:project_id]
     if @query.valid?
       @issues = @query.issues
       @issue_board = @query.issue_board

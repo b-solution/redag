@@ -1,0 +1,16 @@
+# English strings go here for Rails i18n
+en:
+   field_reminder_option: "Reminder option"
+   field_reminder_date: "Reminder date"
+   reminder_mail_body_recurring: "Issues assigned to you that are recurring tasks"
+   reminder_mail_body_due_soon: "Issues assigned to you that are due soon"
+   reminder_mail_subject_recurring: "Recurring tasks -"
+   reminder_mail_subject_due_soon: "Reminder mail -"
+   reminder_view_all_your_issues: "View all your issues"
+   single_reminder: "Single reminder"
+   weekly_reminder: "Weekly reminder"
+   two_weeks_reminder: "two weeks reminder"
+   monthly_reminder: "Monthly reminder"
+   two_months_reminder: "Two months reminder"
+   three_months_reminder: "Three months reminder"
+   six_month_reminder: "Six month reminder"
